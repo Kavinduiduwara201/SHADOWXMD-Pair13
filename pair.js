@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = '╭━━〔🔗 Pair Code Connected 〕━━╮\n✅ *Your WhatsApp is now linked successfully!*\n🛠️ _Deploy for Shadow XMD Bot to start..._\n💡 *Note:* Bot not connected yet.\n👨‍💻 *Developer:* 𝑲𝒂𝒗𝒊𝒏𝒅𝒖 𝑰𝒅𝒖𝒘𝒂𝒓𝒂 & 𝑰𝒔𝒉𝒂𝒏 𝑵𝒊𝒎𝒔𝒂𝒓𝒂\n📞 *Contact:* +94 770 051 298\n🔗 *GitHub Repo:* https://github.com/Kavinduiduwara201/SHADOWXMD-Pair\n📱 *Join Our WhatsApp Group:* https://chat.whatsapp.com/HRRkAxmbg2GGNWPfsX2Nfc\n\n╭━━〔🔗 සම්බන්ධතාවය සාර්ථකයි 〕━━╮\n✅ *ඔබේ WhatsApp Account එක සාර්ථකව සම්බන්ධ කර ඇත!*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*`;
+            const mg = `🚫⚠️ *Important Notice!* ⚠️🚫\n\n🔐 *Do NOT share this Season id with anyone!*\n🤖 It gives full access to your WhatsApp Bot.\n👁️ Keep it private and secure!\n🛡️ Unauthorized use may compromise your account.`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://files.catbox.moe/1dlviy.png",
               },
               caption: sid,
             });
